@@ -1,0 +1,15 @@
+version: '3'
+services:
+   redis:
+     image: local_redis:latest
+     restart: "no"
+     container_name: sg_redis
+     ports:
+       - "6379:6379"
+     volumes:
+       - /data:/data      
+     cap_add:
+      - NET_ADMIN
+     networks:
+      - host 
+     command: redis-server /usr/local/etc/redis/redis.conf 
