@@ -10,6 +10,5 @@ services:
        - /data:/data      
      cap_add:
       - NET_ADMIN
-     networks:
-      - host 
+     network_mode: "host" 
      command: redis-server /usr/local/etc/redis/redis.conf 
