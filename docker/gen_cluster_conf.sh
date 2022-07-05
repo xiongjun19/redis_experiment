@@ -1,11 +1,13 @@
-ip=172.31.49.168
+# ip=172.31.49.168
+ip=$1
 
+
+mkdir -p cluster_conf
 mkdir -p /data/log
 mkdir -p /data/run
-for port in $(seq 6379 6382); 
+for port in $(seq 6379 6384); 
 do 
 	mkdir -p /data/redis_clus/${port}
-	mkdir -p cluster_conf
 	touch cluster_conf/redis_${port}.conf
 	cat  << EOF > cluster_conf/redis_${port}.conf 
 port ${port}
