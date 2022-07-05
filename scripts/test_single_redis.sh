@@ -8,7 +8,7 @@ cli_arr=(20 40 80)
 data_size_arr=(32 64 128)
 num_request=2000
 
-log_f='single_test'
+log_f='../logs/single_test_da_persis'
 
 for th in ${thread_arr[@]} 
 do 
