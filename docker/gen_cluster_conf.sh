@@ -7,6 +7,7 @@ mkdir -p /data/log
 mkdir -p /data/run
 for port in $(seq 6379 6384); 
 do 
+	rm -r /data/redis_clus/${port}
 	mkdir -p /data/redis_clus/${port}
 	touch cluster_conf/redis_${port}.conf
 	cat  << EOF > cluster_conf/redis_${port}.conf 
