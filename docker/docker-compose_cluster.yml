@@ -10,7 +10,7 @@ services:
     volumes: # 数据卷，目录挂载
       - /data/code/redis_experiment/docker/cluster_conf/redis_6379.conf:/usr/local/etc/redis/redis.conf
       - /data:/data
-    command: redis-server /usr/local/etc/redis/redis.conf 
+    command: redis-server /usr/local/etc/redis/redis.conf
 
   redis-6380: # 服务名称
     image: redis # 创建容器时所需的镜像
@@ -19,7 +19,7 @@ services:
     volumes: # 数据卷，目录挂载
       - /data/code/redis_experiment/docker/cluster_conf/redis_6380.conf:/usr/local/etc/redis/redis.conf
       - /data:/data
-    command: redis-server /usr/local/etc/redis/redis.conf 
+    command: redis-server /usr/local/etc/redis/redis.conf
 
   redis-6381: # 服务名称
     image: redis # 创建容器时所需的镜像
@@ -28,9 +28,8 @@ services:
     volumes: # 数据卷，目录挂载
       - /data/code/redis_experiment/docker/cluster_conf/redis_6381.conf:/usr/local/etc/redis/redis.conf
       - /data:/data
-    command: redis-server /usr/local/etc/redis/redis.conf 
+    command: redis-server /usr/local/etc/redis/redis.conf
 
- 
   redis-6382: # 服务名称
     image: redis # 创建容器时所需的镜像
     container_name: redis-6382 # 容器名称
@@ -38,7 +37,7 @@ services:
     volumes: # 数据卷，目录挂载
       - /data/code/redis_experiment/docker/cluster_conf/redis_6382.conf:/usr/local/etc/redis/redis.conf
       - /data:/data
-    command: redis-server /usr/local/etc/redis/redis.conf 
+    command: redis-server /usr/local/etc/redis/redis.conf
 
   redis-6383: # 服务名称
     image: redis # 创建容器时所需的镜像
@@ -47,7 +46,7 @@ services:
     volumes: # 数据卷，目录挂载
       - /data/code/redis_experiment/docker/cluster_conf/redis_6383.conf:/usr/local/etc/redis/redis.conf
       - /data:/data
-    command: redis-server /usr/local/etc/redis/redis.conf 
+    command: redis-server /usr/local/etc/redis/redis.conf
 
   redis-6384: # 服务名称
     image: redis # 创建容器时所需的镜像
@@ -56,6 +55,59 @@ services:
     volumes: # 数据卷，目录挂载
       - /data/code/redis_experiment/docker/cluster_conf/redis_6384.conf:/usr/local/etc/redis/redis.conf
       - /data:/data
-    command: redis-server /usr/local/etc/redis/redis.conf 
+    command: redis-server /usr/local/etc/redis/redis.conf
 
-  
+  redis-6385: # 服务名称
+    image: redis # 创建容器时所需的镜像
+    container_name: redis-6385 # 容器名称
+    network_mode: "host" # host 网络模式
+    volumes: # 数据卷，目录挂载
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6385.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6386: # 服务名称
+    image: redis # 创建容器时所需的镜像
+    container_name: redis-6386 # 容器名称
+    network_mode: "host" # host 网络模式
+    volumes: # 数据卷，目录挂载
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6386.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6387: # 服务名称
+    image: redis # 创建容器时所需的镜像
+    container_name: redis-6387 # 容器名称
+    network_mode: "host" # host 网络模式
+    volumes: # 数据卷，目录挂载
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6387.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6388: # 服务名称
+    image: redis # 创建容器时所需的镜像
+    container_name: redis-6388 # 容器名称
+    network_mode: "host" # host 网络模式
+    volumes: # 数据卷，目录挂载
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6388.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6389: # 服务名称
+    image: redis # 创建容器时所需的镜像
+    container_name: redis-6389 # 容器名称
+    network_mode: "host" # host 网络模式
+    volumes: # 数据卷，目录挂载
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6389.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6390: # 服务名称
+    image: redis # 创建容器时所需的镜像
+    container_name: redis-6390 # 容器名称
+    network_mode: "host" # host 网络模式
+    volumes: # 数据卷，目录挂载
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6390.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+

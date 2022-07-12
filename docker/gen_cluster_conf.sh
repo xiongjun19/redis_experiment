@@ -5,7 +5,7 @@ ip=$1
 mkdir -p cluster_conf
 mkdir -p /data/log
 mkdir -p /data/run
-for port in $(seq 6379 6384); 
+for port in $(seq 6379 6390); 
 do 
 	rm -r /data/redis_clus/${port}
 	mkdir -p /data/redis_clus/${port}
