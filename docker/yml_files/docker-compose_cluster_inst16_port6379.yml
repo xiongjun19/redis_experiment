@@ -1,0 +1,291 @@
+version: "3"
+
+services:
+  redis-6379:
+    image: redis
+    container_name: redis-6379
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6379.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6380:
+    image: redis
+    container_name: redis-6380
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6380.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6381:
+    image: redis
+    container_name: redis-6381
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6381.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6382:
+    image: redis
+    container_name: redis-6382
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6382.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6383:
+    image: redis
+    container_name: redis-6383
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6383.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6384:
+    image: redis
+    container_name: redis-6384
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6384.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6385:
+    image: redis
+    container_name: redis-6385
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6385.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6386:
+    image: redis
+    container_name: redis-6386
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6386.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6387:
+    image: redis
+    container_name: redis-6387
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6387.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6388:
+    image: redis
+    container_name: redis-6388
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6388.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6389:
+    image: redis
+    container_name: redis-6389
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6389.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6390:
+    image: redis
+    container_name: redis-6390
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6390.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6391:
+    image: redis
+    container_name: redis-6391
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6391.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6392:
+    image: redis
+    container_name: redis-6392
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6392.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6393:
+    image: redis
+    container_name: redis-6393
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6393.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6394:
+    image: redis
+    container_name: redis-6394
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6394.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6395:
+    image: redis
+    container_name: redis-6395
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6395.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6396:
+    image: redis
+    container_name: redis-6396
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6396.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6397:
+    image: redis
+    container_name: redis-6397
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6397.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6398:
+    image: redis
+    container_name: redis-6398
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6398.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6399:
+    image: redis
+    container_name: redis-6399
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6399.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6400:
+    image: redis
+    container_name: redis-6400
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6400.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6401:
+    image: redis
+    container_name: redis-6401
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6401.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6402:
+    image: redis
+    container_name: redis-6402
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6402.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6403:
+    image: redis
+    container_name: redis-6403
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6403.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6404:
+    image: redis
+    container_name: redis-6404
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6404.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6405:
+    image: redis
+    container_name: redis-6405
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6405.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6406:
+    image: redis
+    container_name: redis-6406
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6406.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6407:
+    image: redis
+    container_name: redis-6407
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6407.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6408:
+    image: redis
+    container_name: redis-6408
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6408.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6409:
+    image: redis
+    container_name: redis-6409
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6409.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-6410:
+    image: redis
+    container_name: redis-6410
+    network_mode: "host"
+    volumes:
+      - /data/code/redis_experiment/docker/cluster_conf/redis_6410.conf:/usr/local/etc/redis/redis.conf
+      - /data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+

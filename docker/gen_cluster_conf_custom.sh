@@ -1,11 +1,15 @@
-# ip=172.31.49.168
 ip=$1
-
+  
 
 mkdir -p cluster_conf
 mkdir -p /data/log
 mkdir -p /data/run
-for port in $(seq 6379 6384);
+
+start=$2
+end=$(($2 + $3 - 1))
+
+
+for port in $(seq $start $end);
 do
         rm -r /data/redis_clus/${port}
         mkdir -p /data/redis_clus/${port}
@@ -29,4 +33,3 @@ cluster-announce-port ${port}
 cluster-announce-bus-port 1${port}
 EOF
 done
-
